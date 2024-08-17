@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url('images/large_blue-mosque-glorius-sunset-istanbul-sultan-ahmed-turkey-shutterstock_174067919.jpg_1404e76369.jpg') no-repeat center center fixed;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 50px;
+  }
+
+  th, td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    color: #fff;
+  }
+
+  th {
+    background-color: #333;
+  }
+
+  tr:nth-child(even) {
+    background-color: #555;
+  }
+
+  tr:nth-child(odd) {
+    background-color: #444;
+  }

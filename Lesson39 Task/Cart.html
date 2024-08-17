@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="cart.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+
+<body>
+    <header>
+        <div class="navbar">
+            <input type="checkbox" name="" id="toggler">
+            <label for="toggler" class="fas fa-bars"></label>
+            <a href="#" class="logo">shopping<span>.</span></a>
+
+            <nav class="navbar">
+                <a href="MainPage.html">home</a>
+                <a href="#about">about</a>
+                <a href="#products">products</a>
+                <a href="#preview">preview</a>
+                <a href="#contact">contact</a>
+            </nav>
+
+            <div class="icons">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="Cart.html" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-user"></a>
+            </div>
+        </div>
+    </header>
+
+    <div id="cart-container"></div>
+
+    <div id="checkout-section">
+        <button onclick="checkout()">Checkout</button>
+    </div>
+
+    <script src="cart.js"></script>
+</body>
+
+</html>
